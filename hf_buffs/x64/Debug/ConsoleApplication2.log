@@ -1,0 +1,18 @@
+﻿Сборка начата 03.03.2017 9:42:12.
+     1>Проект "F:\hf_buffs\ConsoleApplication2.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W4 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt crc32.c main.c
+         main.c
+         crc32.c
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\hf_buffs\x64\Debug\haffman.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\hf_buffs\x64\Debug\haffman.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\hf_buffs\x64\Debug\haffman.lib" /MACHINE:X64 x64\Debug\crc32.obj
+         x64\Debug\main.obj
+         x64\Debug\rd_bytes.obj
+         x64\Debug\wr_bytes.obj
+         ConsoleApplication2.vcxproj -> F:\hf_buffs\x64\Debug\haffman.exe
+     1>Сборка проекта "F:\hf_buffs\ConsoleApplication2.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:17.12

@@ -1,0 +1,22 @@
+while (1)
+		{
+			if (ftell(info) != in.st_size)
+			{
+				tmp = fread(namelen, 1, SIZ, info);
+				tmp = ch_to_int(namelen, SIZ);
+				tempo = (unsigned char *)malloc(tmp);
+				rd = fread(tempo, 1, tmp, info);
+				tempo[tmp] = '\0';
+				printf("%s ", tempo);
+				sizelen = (unsigned char *)malloc(SIZ);
+				tmp = fread(sizelen, 1, SIZ, info);
+				size = ch_to_int(sizelen, SIZ);
+				printf("%d bytes original ", size);
+				printf("St szhatia is 0%%\n");
+				fseek(info, size + 4, SEEK_CUR);
+			}
+			else
+				break;
+		}
+		fclose(info);
+		return 0;
